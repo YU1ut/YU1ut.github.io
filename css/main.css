@@ -1225,7 +1225,7 @@ textarea.form-control {
     }
 
     .service-item:hover .service-icon {
-      border: 0px solid #009ee3;
+      border: 0px solid white;
       margin-bottom: 0px;
       color: #009ee3;
     }
