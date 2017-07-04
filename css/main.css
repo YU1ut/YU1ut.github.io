@@ -903,7 +903,7 @@ ul.external li a:hover {
     color: #fff;
     display: block;
     height: 90px;
-    line-height: 110px;
+    line-height: 107px;
     width: 90px;
 
     -webkit-transition: all 0.2s ease 0s;
@@ -1316,7 +1316,7 @@ textarea.form-control {
 
     .social-button li a {
         height: 65px;
-        line-height: 85px;
+        line-height: 80px;
         width: 65px;
     }
 
@@ -1397,7 +1397,7 @@ textarea.form-control {
 
     .social-button li a {
         height: 90px;
-        line-height: 110px;
+        line-height: 107px;
         width: 90px;
     }
 
