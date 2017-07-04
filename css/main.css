@@ -1221,11 +1221,13 @@ textarea.form-control {
     }
 
     .sec-title h2:after {
-        left: 38%;
+        left: 35%;
     }
 
     .service-item:hover .service-icon {
-        color: #009ee3;
+      border: 0px solid #009ee3;
+      margin-bottom: 0px;
+      color: #009ee3;
     }
 /*navigation*/
     .navbar-inverse .navbar-toggle {
