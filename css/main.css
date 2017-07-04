@@ -572,6 +572,7 @@ h1.navbar-brand {
     height: 85px;
     width: 85px;
     line-height: 101px;
+    color: #818181;
 
     -webkit-transform: rotate(47deg);
        -moz-transform: rotate(47deg);
@@ -589,6 +590,18 @@ h1.navbar-brand {
 .service-item:hover .service-icon {
     border: 3px solid #009ee3;
     margin-bottom: 20px;
+    color: #009ee3;
+}
+
+.service-icon a:link{
+  color: #818181;
+}
+
+.service-icon a:visited{
+  color: #009ee3;
+}
+
+.service-item:hover .service-icon a {
     color: #009ee3;
 }
 
