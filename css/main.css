@@ -1221,9 +1221,12 @@ textarea.form-control {
     }
 
     .sec-title h2:after {
-        left: 30%;
+        left: 38%;
     }
 
+    .service-item:hover .service-icon {
+        color: #009ee3;
+    }
 /*navigation*/
     .navbar-inverse .navbar-toggle {
         border-color: #fff;
@@ -1355,11 +1358,7 @@ textarea.form-control {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
     .sec-title h2:after {
-        left: 40%;
-    }
-
-    .service-item:hover .service-icon {
-        color: #009ee3;
+        left: 38%;
     }
 
 /* home slider */
