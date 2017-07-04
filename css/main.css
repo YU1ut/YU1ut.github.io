@@ -572,7 +572,6 @@ h1.navbar-brand {
     height: 85px;
     width: 85px;
     line-height: 101px;
-    color: #818181;
 
     -webkit-transform: rotate(47deg);
        -moz-transform: rotate(47deg);
@@ -1356,7 +1355,11 @@ textarea.form-control {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
     .sec-title h2:after {
-        left: 38%;
+        left: 40%;
+    }
+
+    .service-item:hover .service-icon {
+        color: #009ee3;
     }
 
 /* home slider */
