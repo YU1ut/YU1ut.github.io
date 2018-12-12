@@ -4,13 +4,7 @@
     <div class="row clearfix awards">
       <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
         <h4 class="name">
-          {%- if awards.link -%}
-            <a href="http://{{ awards.link }}" target="_blank">
-          {%- endif -%}
             {{ awards.name }}
-          {%- if awards.link -%}
-            </a>
-          {%- endif -%}
           </h4>
         <p>{{ awards.dates }}</p>
       </div>
