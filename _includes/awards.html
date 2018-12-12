@@ -1,0 +1,26 @@
+<div class="container awards-container">
+  <h3>{{ site.awards_title | default: "Awards" }}</h3>
+  {% for awards in site.data.awards %}
+    <div class="row clearfix awards">
+      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+        <h4 class="name">
+          {%- if awards.link -%}
+            <a href="http://{{ awards.link }}" target="_blank">
+          {%- endif -%}
+            {{ awards.company }}
+          {%- if awards.link -%}
+            </a>
+          {%- endif -%}
+          </h4>
+        <p><b>{{ awards.job_title }}</b></p>
+        <p>{{ awards.dates }}</p>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+        {%- if awards.quote -%}
+          <p class="quote">{{ awards.quote }}</p>
+        {%- endif -%}
+        {{ awards.description | strip | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
