@@ -2,7 +2,7 @@
   <h3>{{ site.education_title | default: "Education" }}</h3>
   {% for education in site.data.education %}
     <div class="row clearfix education">
-      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-print-12 left-column">
         <h4>{{ education.name }}</h4>
         <p><b>{{ education.qualification }}</b></p>
         <p>{{ education.dates }}</p>
