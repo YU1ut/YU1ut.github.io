@@ -1,0 +1,14 @@
+- company: Microsoft Development
+  link: https://news.microsoft.com/ja-jp/cp/msd/
+  job_title: Software Engineer Intern
+  dates: August 2018 - September 2018
+  description: | # this will include new lines to allow paragraphs
+    Worked with [Rinna Team](www.rinna.jp).
+
+- company: priceless Inc.
+  link: price-less.co.jp
+  job_title: Software Engineer
+  dates: May 2016 - Now
+  description: | # this will include new lines to allow paragraphs
+    Deep Learning application development.
+

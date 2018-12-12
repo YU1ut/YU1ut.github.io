@@ -1,0 +1,62 @@
+# Site
+# repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Qing YU
+title: 1st Year Master Student
+email: yu@hal.t.u-tokyo.ac.jp
+website: yu1ut.com
+
+# Social links
+twitter_username: Carry_God
+github_username:  YU1ut
+# dribbble_username: jekyll
+facebook_username: yu1ut
+# flickr_username: jekyll
+# instagram_username: chillwildlife
+linkedin_username: qingyu-ut
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Qing YU and I'm a M1 student at The University of Tokyo, Japan.
+  I’m a member of [Aizawa-Yamasaki Labratory](https://www.hal.t.u-tokyo.ac.jp/) and working with [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).
+  My research interest is in computer vision, including image recognition, open-set recognition and classifier adaption.
+  I’m a recipient of [The University of Tokyo Fellowship](https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html) (2018-2020).
+  I am most skilled in: <mark>Python</mark> and <mark>PyTorch</mark>
+
+# Projects Section
+projects_title: Publications
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my research interests some of my other interests and hobbies are:
+   - Basketball
+   - Animation
+   - Movie
+   - Dota2
+
+# Footer
+footer_show_references: false
+
+# Build settings
+# remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
