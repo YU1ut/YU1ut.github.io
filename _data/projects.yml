@@ -1,17 +1,17 @@
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
     - <strong>Qing Yu</strong>, Masashi Anzawa, Sosuke Amano, Makoto Ogawa and Kiyoharu Aizawa  
-      <strong>Food Image Recognition by Personalized Classifiers<strong>  
+      <strong>Food Image Recognition by Personalized Classifiers</strong>  
       The IEEE International Conference on Image Processing (ICIP), 2018.  
     
 - name: Domestic Conferences
   description: | # this will include new lines to allow paragraphs
     - <strong>Qing Yu</strong>, Masashi Anzawa, Sosuke Amano, Makoto Ogawa and Kiyoharu Aizawa  
-      <strong>Personalized Food Image Recognition<strong>  
+      <strong>Personalized Food Image Recognition</strong>  
       Meeting on Image Recognition and Understanding (MIRU), 2018.  
     - <strong>Qing Yu</strong>, Masashi Anzawa, Sosuke Amano, Toshihiko Yamasaki, Kiyoharu Aizawa and Makoto Ogawa  
-      <strong>Personalized Food Classifier Adaptation to Time-Dependent Food Distribution<strong>  
+      <strong>Personalized Food Classifier Adaptation to Time-Dependent Food Distribution</strong>  
       IEICE General Conference, 2018.  
     - <strong>Qing Yu</strong>, Masashi Anzawa, Sosuke Amano, Toshihiko Yamasaki, Kiyoharu Aizawa and Makoto Ogawa  
-      <strong>Food Image Recognition Based on Deep Feature Considering Time and Distributed Representation<strong>  
+      <strong>Food Image Recognition Based on Deep Feature Considering Time and Distributed Representation</strong>  
       ITE Winter Annual Convention,, 2017.  
