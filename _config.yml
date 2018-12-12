@@ -24,9 +24,9 @@ linkedin_username: qingyu-ut
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Qing YU and I'm a M1 student at The University of Tokyo, Japan.
-  I’m a member of [Aizawa-Yamasaki Labratory](https://www.hal.t.u-tokyo.ac.jp/) and working with [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).
-  My research interest is in computer vision, including image recognition, open-set recognition and classifier adaption.
+  Hi, my name's Qing YU and I'm a M1 student at The University of Tokyo, Japan.  
+  I’m a member of [Aizawa-Yamasaki Labratory](https://www.hal.t.u-tokyo.ac.jp/) and working with [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).  
+  My research interest is in computer vision, including image recognition, open-set recognition and classifier adaption.  
   I’m a recipient of [The University of Tokyo Fellowship](https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html) (2018-2020).  
   I am most skilled in: <mark>Python</mark> and <mark>PyTorch</mark>
 
