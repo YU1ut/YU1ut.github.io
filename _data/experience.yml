@@ -1,9 +1,9 @@
-- company: Microsoft Development
-  link: www.microsoft.com/ja-jp/
-  job_title: Software Engineer Intern
-  dates: August 2018 - September 2018
+- company: Learn.AI
+  link: learn-ai.org
+  job_title: Teaching Assistant
+  dates: April 2018 - Present
   description: | # this will include new lines to allow paragraphs
-    Worked with [Rinna Team](www.rinna.jp).
+    An open course at UTokyo offering the basics of CS and AI including deep learning.
 
 - company: priceless Inc.
   link: price-less.co.jp
@@ -12,3 +12,9 @@
   description: | # this will include new lines to allow paragraphs
     Deep Learning application development.
 
+- company: Microsoft Development
+  link: www.microsoft.com/ja-jp/
+  job_title: Software Engineer Intern
+  dates: August 2018 - September 2018
+  description: | # this will include new lines to allow paragraphs
+    Worked with [Rinna Team](www.rinna.jp).
