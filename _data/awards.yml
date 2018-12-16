@@ -1,11 +1,20 @@
+- name: The 1st Tellus Satellite Challenge Champion
+  dates: December 2018
+  description: |
+    A landslide detection competition.  
+    Prize: 1,000,000 JPY
+    [[Detail]](https://signate.jp/competitions/110)
+
 - name: AIST Satellite Image Analysis Contest Champion
   dates: April 2018
   description: |
     A golf course detection competition.  
+    Prize: 300,000 JPY
     [[Detail]](https://signate.jp/competitions/61) / [[Slide]](https://static.signate.jp/competitions/61/summaries/aist_Prediction_Score_1.Yk.pdf)
 
 - name: JSAI Cup 2018 Champion
   dates: March 2018
   description: |
     A food ingredient image classification competition.  
+    Prize: 500,000 JPY
     [[Detail]](https://signate.jp/competitions/59) / [[Slide]](https://static.signate.jp/competitions/59/summaries/1_JSAICup2018_Yk.pdf)
