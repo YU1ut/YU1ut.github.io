@@ -1,11 +1,19 @@
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
+    - <strong>Qing Yu</strong> and Kiyoharu Aizawa  
+      <strong>Unsupervised Out-of-Distribution Detection by Maximum Classifier Discrepancy</strong>  
+      The IEEE International Conference on Computer Vision (ICCV), 2019. 
+      <br>
     - <strong>Qing Yu</strong>, Masashi Anzawa, Sosuke Amano, Makoto Ogawa and Kiyoharu Aizawa  
       <strong>Food Image Recognition by Personalized Classifier</strong>  
-      The IEEE International Conference on Image Processing (ICIP), 2018.  
+      IEEE International Conference on Image Processing (ICIP), 2018.  
     
 - name: Domestic <br> Conferences
   description: | # this will include new lines to allow paragraphs
+    - <strong>Qing Yu</strong> and Kiyoharu Aizawa  
+      <strong>Classifier Discrepancy Maximization for Unsupervised Out-of-Distribution Detection</strong>  
+      Meeting on Image Recognition and Understanding (MIRU), 2019.  
+      <br>
     - <strong>Qing Yu</strong>, Masashi Anzawa, Sosuke Amano, Makoto Ogawa and Kiyoharu Aizawa  
       <strong>Personalized Food Image Recognition</strong>  
       Meeting on Image Recognition and Understanding (MIRU), 2018.  

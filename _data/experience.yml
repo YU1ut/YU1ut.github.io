@@ -1,3 +1,10 @@
+- company: OMRON SINIC X
+  link: www.omron.com/sinicx/
+  job_title: Research Intern
+  dates: July 2019 - Present
+  description: | # this will include new lines to allow paragraphs
+    Working on Vision and Language.
+
 - company: Learn.AI
   link: learn-ai.org
   job_title: Teaching Assistant
