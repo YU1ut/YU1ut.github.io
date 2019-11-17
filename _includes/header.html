@@ -6,10 +6,10 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
-        {%- if site.dribbble_username -%}
+        {%- if site.kaggle_username -%}
           <li>
-            <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fa fa-dribbble" title="Dribble link"></i>
+            <a target="_blank" href="https://www.kaggle.com/{{ site.kaggle_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fa fa-kaggle" title="Kaggle link"></i>
             </a>
           </li>
         {%- endif -%}
