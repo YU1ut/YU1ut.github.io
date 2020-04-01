@@ -1,14 +1,14 @@
 - company: OMRON SINIC X
   link: www.omron.com/sinicx/
   job_title: Research Intern
-  dates: July 2019 - Present
+  dates: July 2019 - December 2019
   description: | # this will include new lines to allow paragraphs
-    Working on Vision and Language.
+    Worked on Domain Adaptation.
 
 - company: Learn.AI
   link: learn-ai.org
   job_title: Teaching Assistant
-  dates: April 2018 - Present
+  dates: April 2018 - March 2020
   description: | # this will include new lines to allow paragraphs
     An open course at UTokyo which offers the basics of CS and AI including deep learning.
 
