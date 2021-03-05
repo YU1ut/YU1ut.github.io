@@ -1,5 +1,9 @@
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
+    - <strong>Qing Yu</strong>, Atsushi Hashimoto and Yoshitaka Ushiku  
+      <strong>Divergence Optimization for Noisy Universal Domain Adaptation</strong>  
+      IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.  
+      <br>
     - <strong>Qing Yu</strong>, Daiki Ikami, Go Irie and Kiyoharu Aizawa  
       <strong>Multi-Task Curriculum Framework for Open-Set Semi-Supervised Learning</strong>  
       European Conference on Computer Vision (ECCV), 2020.  
