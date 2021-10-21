@@ -1,5 +1,9 @@
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
+    - Jiafeng Mao, <strong>Qing Yu</strong>, Yoko Yamakata and Kiyoharu Aizawa  
+      <strong>Noisy Annotation Refinement for Object Detection</strong>  
+      British Machine Vision Conference (BMVC), 2021.   
+      <br>
     - <strong>Qing Yu</strong>, Atsushi Hashimoto and Yoshitaka Ushiku  
       <strong>Divergence Optimization for Noisy Universal Domain Adaptation</strong>  
       IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.  
