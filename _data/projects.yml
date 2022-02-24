@@ -8,49 +8,49 @@
     - Jiafeng Mao, <strong>Qing Yu</strong>, Yoko Yamakata and Kiyoharu Aizawa  
       <strong>Noisy Annotation Refinement for Object Detection</strong>  
       British Machine Vision Conference (BMVC), 2021.   
-      [[Paper]](https://arxiv.org/abs/2110.10456)
+      [[Paper]](https://arxiv.org/abs/2110.10456)  
       <br>
 
     - <strong>Qing Yu</strong>, Atsushi Hashimoto and Yoshitaka Ushiku  
       <strong>Divergence Optimization for Noisy Universal Domain Adaptation</strong>  
       IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.  
-      [[Paper]](https://arxiv.org/abs/2104.00246)  [[Code]](https://github.com/YU1ut/Divergence-Optimization)
+      [[Paper]](https://arxiv.org/abs/2104.00246)  [[Code]](https://github.com/YU1ut/Divergence-Optimization)  
       <br>
 
     - <strong>Qing Yu</strong>, Daiki Ikami, Go Irie and Kiyoharu Aizawa  
       <strong>Multi-Task Curriculum Framework for Open-Set Semi-Supervised Learning</strong>  
       European Conference on Computer Vision (ECCV), 2020.  
-      [[Paper]](https://arxiv.org/abs/2007.11330) [[Code]](https://github.com/YU1ut/Multi-Task-Curriculum-Framework-for-Open-Set-SSL)
+      [[Paper]](https://arxiv.org/abs/2007.11330) [[Code]](https://github.com/YU1ut/Multi-Task-Curriculum-Framework-for-Open-Set-SSL)  
       <br>
 
     - <strong>Qing Yu</strong> and Kiyoharu Aizawa  
       <strong>Unknown Class Label Cleaning for Learning with Open-Set Noisy Labels</strong>  
       IEEE International Conference on Image Processing (ICIP), 2020.  
-      [[Paper]](https://ieeexplore.ieee.org/document/9190652) [[Code]](https://github.com/YU1ut/Unknown-Class-Label-Cleaning)
+      [[Paper]](https://ieeexplore.ieee.org/document/9190652) [[Code]](https://github.com/YU1ut/Unknown-Class-Label-Cleaning)  
       <br>
       
     - Jiafeng Mao, <strong>Qing Yu</strong> and Kiyoharu Aizawa  
       <strong>Noisy Localization Annotation Refinement For Object Detection</strong>  
       IEEE International Conference on Image Processing (ICIP), 2020.   
-      [[Paper]](https://ieeexplore.ieee.org/document/9190728)
+      [[Paper]](https://ieeexplore.ieee.org/document/9190728)  
       <br>
 
     - Takumi Kawashima, <strong>Qing Yu</strong>, Akari Asai, Daiki Ikami and Kiyoharu Aizawa  
       <strong>The Aleatoric Uncertainty Estimation Using a Separate Formulation with Virtual Residuals</strong>  
       International Conference on Pattern Recognition (ICPR), 2020.  
-      [[Paper]](https://arxiv.org/abs/2011.01655)
+      [[Paper]](https://arxiv.org/abs/2011.01655)  
       <br>
 
     - <strong>Qing Yu</strong> and Kiyoharu Aizawa  
       <strong>Unsupervised Out-of-Distribution Detection by Maximum Classifier Discrepancy</strong>  
       IEEE International Conference on Computer Vision (ICCV), 2019.  
-      [[Paper]](https://arxiv.org/abs/1908.04951) [[Code]](https://github.com/YU1ut/UOOD-MCD)
+      [[Paper]](https://arxiv.org/abs/1908.04951) [[Code]](https://github.com/YU1ut/UOOD-MCD)  
       <br>
 
     - <strong>Qing Yu</strong>, Masashi Anzawa, Sosuke Amano, Makoto Ogawa and Kiyoharu Aizawa  
       <strong>Food Image Recognition by Personalized Classifier</strong>  
-      IEEE International Conference on Image Processing (ICIP), 2018.
-      [[Paper]](https://ieeexplore.ieee.org/document/8451422)
+      IEEE International Conference on Image Processing (ICIP), 2018.  
+      [[Paper]](https://ieeexplore.ieee.org/document/8451422)  
 
 - name: Journal
   description: | # this will include new lines to allow paragraphs
