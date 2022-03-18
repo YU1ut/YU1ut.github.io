@@ -28,7 +28,8 @@ about_content: | # this will include new lines to allow paragraphs
   I’m a member of [Aizawa Labratory](https://www.hal.t.u-tokyo.ac.jp/) and working with [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).
   My research interest is in Computer Vision, including Image Recognition, Open-set Recognition and Classifier Adaption.
   I’m a recipient of Research Fellowships for Young Scientists (DC1) (2020-2023) and I was a recipient of [The University of Tokyo Fellowship](https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html) (2018-2020).
-  I am most skilled in: <mark>Python</mark> and <mark>PyTorch</mark>
+  I am most skilled in: <mark>Python</mark> and <mark>PyTorch</mark>.
+  CV is [here](cv/CV.pdf).
 
 # Projects Section
 projects_title: Publications
