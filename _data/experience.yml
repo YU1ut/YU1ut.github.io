@@ -1,7 +1,14 @@
+- company: LINE CV Lab
+  link: clova.line.me
+  job_title: Research Intern
+  dates: December 2021 - May 2022
+  description: | # this will include new lines to allow paragraphs
+    Worked on Motion Recognition.
+
 - company: OMRON SINIC X
   link: www.omron.com/sinicx/
   job_title: Research Intern
-  dates: July 2019 - December 2019
+  dates: July 2019 - December 2019, Augest 2020 - September 2021
   description: | # this will include new lines to allow paragraphs
     Worked on Domain Adaptation.
 
