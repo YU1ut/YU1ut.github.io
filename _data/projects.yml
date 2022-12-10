@@ -1,5 +1,13 @@
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
+    - <strong>Qing Yu</strong> and Kent Fujiwara  
+      <strong>Frame-Level Label Refinement for Skeleton-Based Weakly-Supervised Action Recognition</strong>  
+      AAAI Conference on Artificial Intelligence (AAAI), 2023.   
+      <br>
+    - Atsuyuki Miyai, <strong>Qing Yu</strong>, Daiki Ikami, Go Irie and Kiyoharu Aizawa  
+      <strong>Rethinking Rotation in Self-Supervised Contrastive Learning: Adaptive Positive or Negative Data Augmentation</strong>  
+      Winter Conference on Applications of Computer Vision (WACV), 2023.   
+      <br>
     - <strong>Qing Yu</strong>, Daiki Ikami, Go Irie and Kiyoharu Aizawa  
       <strong>Self-Labeling Framework for Novel Category Discovery over Domains</strong>  
       AAAI Conference on Artificial Intelligence (AAAI), 2022.   
@@ -46,12 +54,18 @@
       [[Paper]](https://ieeexplore.ieee.org/document/8451422)  
 
 - name: Journal
-  description: | # this will include new lines to allow paragraphs
+  description: | # this will include new lines to allow paragraph
+    - Jiafeng Mao, <strong>Qing Yu</strong> and Kiyoharu Aizawa  
+      <strong>Noisy Localization Annotation Refinement for Object Detection</strong>  
+      IEICE TRANS INF SYST, 2021.
+
     - <strong>Qing Yu</strong>, Masashi Anzawa, Sosuke Amano and Kiyoharu Aizawa  
       <strong>Personalized Food Image Classifier Considering Time-Dependent and Item-Dependent Food Distribution</strong>  
       IEICE TRANS INF SYST, 2019.
 
+    
+
 - name: Domestic <br> Conferences
   description: | # this will include new lines to allow paragraphs
-    - Eight Papers
+    - Fourteen Papers
      
