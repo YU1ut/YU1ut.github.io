@@ -56,9 +56,10 @@
 
 - name: Journal
   description: | # this will include new lines to allow paragraph
-    - <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa
+    - <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa  
       <strong>Self-Labeling Framework for Open-Set Domain Adaptation with Few Labeled Samples</strong>  
       IEEE Transactions on Multimedia, 2023.  
+      [[Paper]](https://ieeexplore.ieee.org/document/10143085)  
       <br>
     - Jiafeng Mao, <strong>Qing Yu</strong> and Kiyoharu Aizawa  
       <strong>Noisy Localization Annotation Refinement for Object Detection</strong>  
