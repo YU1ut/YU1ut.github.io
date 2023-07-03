@@ -4,7 +4,7 @@
 
 # Personal info
 name: Qing YU
-title: PhD Student
+title: Research Scientist
 email: yu@hal.t.u-tokyo.ac.jp
 website: yu1ut.com
 
@@ -24,10 +24,10 @@ linkedin_username: qingyu-ut
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Qing YU and I am a PhD student at The University of Tokyo, Japan.
-  I am a member of [Aizawa Labratory](https://www.hal.t.u-tokyo.ac.jp/) and working with [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).
+  Hi, my name is Qing YU. I am currently a research scientist at LINE Corporation and a project researcher with The University of Tokyo, Japan.
+  I am a member of Computer Vision Lab at LINE Corporation. I am also a member of [Aizawa Labratory](https://www.hal.t.u-tokyo.ac.jp/) and working with [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).
   My research interest is in Computer Vision, including Image Recognition, Open-set Recognition and Classifier Adaption.
-  I am a recipient of Research Fellowships for Young Scientists (DC1) (2020-2023) and I was a recipient of [The University of Tokyo Fellowship](https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html) (2018-2020).
+  I was a recipient of Research Fellowships for Young Scientists (DC1) (2020-2023) and I was a recipient of [The University of Tokyo Fellowship](https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html) (2018-2020).
   I am most skilled in: <mark>Python</mark> and <mark>PyTorch</mark>.
   Full CV is [here](cv/CV.pdf).
 
