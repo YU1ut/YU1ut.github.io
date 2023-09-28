@@ -1,11 +1,25 @@
+- name: Preprints
+  description: | # this will include new lines to allow paragraph
+    - <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
+      <strong>Open-Set Domain Adaptation with Visual-Language Foundation Models</strong>  
+      arXiv, 2023.   
+      [[Paper]](https://arxiv.org/abs/2307.16204)  
+      <br>
+    - Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie, Kiyoharu Aizawa   
+      <strong>Zero-Shot In-Distribution Detection in Multi-Object Settings Using Vision-Language Foundation Models</strong>  
+      arXiv, 2023.   
+      [[Paper]](https://arxiv.org/abs/2304.04521)  [[Code]](https://github.com/AtsuMiyai/GL-MCM)  
+      <br>
+
+
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
-    - Atsuyuki Miyai, Atsuyuki Miyai, Qing Yu, Go Irie, Kiyoharu Aizawa   
+    - Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
       <strong>LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning</strong>  
       Neural Information Processing Systems (NeurIPS), 2023.   
       [[Paper]](https://arxiv.org/abs/2306.01293)  
       <br>
-    - Jiafeng Mao, <strong>Qing Yu</strong>, Go Irie, and Kiyoharu Aizawa   
+    - Jiafeng Mao, <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
       <strong>Noise-Avoidance Sampling for Annotation Missing Object Detection</strong>  
       IEEE International Conference on Image Processing (ICIP), 2023.   
       [[Paper]](https://ieeexplore.ieee.org/abstract/document/10222557)  
