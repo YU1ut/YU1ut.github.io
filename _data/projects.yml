@@ -17,7 +17,7 @@
     - Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
       <strong>LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning</strong>  
       Neural Information Processing Systems (NeurIPS), 2023.   
-      [[Paper]](https://arxiv.org/abs/2306.01293)  
+      [[Paper]](https://arxiv.org/abs/2306.01293)  [[Code]](https://github.com/AtsuMiyai/LoCoOp)  
       <br>
     - Jiafeng Mao, <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
       <strong>Noise-Avoidance Sampling for Annotation Missing Object Detection</strong>  
