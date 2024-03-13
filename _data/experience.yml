@@ -1,9 +1,23 @@
-- company: LINE CV Lab
-  link: clova.line.me
+- company: LY Corp. 
+  link: research.lycorp.co.jp
+  job_title: Research Scientist
+  dates: October 2023 - Current
+  description: | # this will include new lines to allow paragraphs
+    Worked on Motion Recognition and Generation with Virtual Human Lab.
+
+- company: LINE
+  link: research.lycorp.co.jp
+  job_title: Research Scientist
+  dates: April 2023 - September 2023
+  description: | # this will include new lines to allow paragraphs
+    Worked on Motion Recognition and Generation with Virtual Human Lab.
+
+- company: LINE
+  link: research.lycorp.co.jp
   job_title: Research Intern
   dates: December 2021 - May 2022
   description: | # this will include new lines to allow paragraphs
-    Worked on Motion Recognition.
+    Worked on Motion Recognition with CV Lab.
 
 - company: OMRON SINIC X
   link: www.omron.com/sinicx/
