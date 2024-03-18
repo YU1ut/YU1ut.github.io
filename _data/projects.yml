@@ -31,7 +31,7 @@
     - <strong>Qing Yu</strong> and Kent Fujiwara  
       <strong>Frame-Level Label Refinement for Skeleton-Based Weakly-Supervised Action Recognition</strong>  
       AAAI Conference on Artificial Intelligence (AAAI), 2023.   
-      [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/25439)  
+      [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/25439)  [[Code]](https://github.com/YU1ut/Skeleton-Temporal-Action-Localization)  
       <br>
     - Atsuyuki Miyai, <strong>Qing Yu</strong>, Daiki Ikami, Go Irie and Kiyoharu Aizawa  
       <strong>Rethinking Rotation in Self-Supervised Contrastive Learning: Adaptive Positive or Negative Data Augmentation</strong>  
