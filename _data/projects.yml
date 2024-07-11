@@ -14,10 +14,15 @@
 
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
+    - Kent Fujiwara, Mikihiro Tanaka and <strong>Qing Yu</strong>     
+      <strong>Chronologically Accurate Retrieval for Temporal Grounding of Motion-Language Models</strong>  
+      European Conference on Computer Vision (ECCV), 2024.  
+      <br>
     - <strong>Qing Yu</strong>, Mikihiro Tanaka and Kent Fujiwara    
       <strong>Exploring Vision Transformers for 3D Human Motion-Language Models with Motion Patches</strong>  
       IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.   
       <br>
+      [[Website]](https://yu1ut.com/MotionPatches-HP/)  [[Paper]](https://arxiv.org/abs/2405.04771)  [[Code]](https://github.com/YU1ut/MotionPatches)  
     - Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
       <strong>LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning</strong>  
       Neural Information Processing Systems (NeurIPS), 2023.   
