@@ -77,6 +77,11 @@
 
 - name: Journal
   description: | # this will include new lines to allow paragraph
+    - <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
+      <strong>Open-Set Domain Adaptation with Visual-Language Foundation Models</strong>  
+      Computer Vision and Image Understanding, 2024.   
+      [[Paper]](https://arxiv.org/abs/2307.16204)  
+      <br>
     - <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa  
       <strong>Self-Labeling Framework for Open-Set Domain Adaptation with Few Labeled Samples</strong>  
       IEEE Transactions on Multimedia, 2023.  
@@ -95,11 +100,6 @@
 
 - name: Preprints
   description: | # this will include new lines to allow paragraph
-    - <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
-      <strong>Open-Set Domain Adaptation with Visual-Language Foundation Models</strong>  
-      arXiv, 2023.   
-      [[Paper]](https://arxiv.org/abs/2307.16204)  
-      <br>
     - Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie, Kiyoharu Aizawa   
       <strong>Zero-Shot In-Distribution Detection in Multi-Object Settings Using Vision-Language Foundation Models</strong>  
       arXiv, 2023.   
