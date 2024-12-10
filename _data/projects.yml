@@ -94,16 +94,15 @@
     
 
 - name: Preprints
-description: | # this will include new lines to allow paragraph
-  - <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
-    <strong>Open-Set Domain Adaptation with Visual-Language Foundation Models</strong>  
-    arXiv, 2023.   
-    [[Paper]](https://arxiv.org/abs/2307.16204)  
-    <br>
-  - Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie, Kiyoharu Aizawa   
-    <strong>Zero-Shot In-Distribution Detection in Multi-Object Settings Using Vision-Language Foundation Models</strong>  
-    arXiv, 2023.   
-    [[Paper]](https://arxiv.org/abs/2304.04521)  [[Code]](https://github.com/AtsuMiyai/GL-MCM)  
-    <br>
-    
+  description: | # this will include new lines to allow paragraph
+    - <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
+      <strong>Open-Set Domain Adaptation with Visual-Language Foundation Models</strong>  
+      arXiv, 2023.   
+      [[Paper]](https://arxiv.org/abs/2307.16204)  
+      <br>
+    - Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie, Kiyoharu Aizawa   
+      <strong>Zero-Shot In-Distribution Detection in Multi-Object Settings Using Vision-Language Foundation Models</strong>  
+      arXiv, 2023.   
+      [[Paper]](https://arxiv.org/abs/2304.04521)  [[Code]](https://github.com/AtsuMiyai/GL-MCM)  
+      <br>
     
