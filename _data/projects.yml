@@ -1,5 +1,9 @@
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
+    - <strong>Qing Yu</strong>, Mikihiro Tanaka and Kent Fujiwara    
+      <strong>ReMoGPT: Part-Level Retrieval-Augmented Motion-Language Models</strong>  
+      AAAI Conference on Artificial Intelligence (AAAI), 2025.    
+      <br>
     - Kent Fujiwara, Mikihiro Tanaka and <strong>Qing Yu</strong>     
       <strong>Chronologically Accurate Retrieval for Temporal Grounding of Motion-Language Models</strong>  
       European Conference on Computer Vision (ECCV), 2024.  
