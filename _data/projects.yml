@@ -7,7 +7,7 @@
     - Kent Fujiwara, Mikihiro Tanaka and <strong>Qing Yu</strong>     
       <strong>Chronologically Accurate Retrieval for Temporal Grounding of Motion-Language Models</strong>  
       European Conference on Computer Vision (ECCV), 2024.  
-      [[Website]](https://kfworks.com/CAR-WP/)  [[Paper]](https://arxiv.org/abs/2407.15408)    
+      [[Website]](https://kfworks.com/CAR-WP/)  [[Paper]](https://arxiv.org/abs/2407.15408)  [[Code]](https://github.com/kentfuji/ChronAccRet)  
       <br>
     - <strong>Qing Yu</strong>, Mikihiro Tanaka and Kent Fujiwara    
       <strong>Exploring Vision Transformers for 3D Human Motion-Language Models with Motion Patches</strong>  
