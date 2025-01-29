@@ -81,6 +81,11 @@
 
 - name: Journal
   description: | # this will include new lines to allow paragraph
+    - Miyai Atsuyuki, <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
+      <strong>GL-MCM: Global and Local Maximum Concept Matching for Zero-Shot Out-of-Distribution Detection</strong>  
+      International Journal of Computer Vision, 2025.   
+      [[Paper]](https://arxiv.org/abs/2304.04521)  [[Code]](https://github.com/AtsuMiyai/GL-MCM)  
+      <br>
     - <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
       <strong>Open-Set Domain Adaptation with Visual-Language Foundation Models</strong>  
       Computer Vision and Image Understanding, 2024.   
@@ -113,10 +118,5 @@
       <strong>Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models</strong>  
       arXiv, 2024.   
       [[Paper]](https://arxiv.org/pdf/2403.20331)  [[Code]](https://github.com/AtsuMiyai/UPD)  
-      <br>
-    - Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie, Kiyoharu Aizawa   
-      <strong>Zero-Shot In-Distribution Detection in Multi-Object Settings Using Vision-Language Foundation Models</strong>  
-      arXiv, 2023.   
-      [[Paper]](https://arxiv.org/abs/2304.04521)  [[Code]](https://github.com/AtsuMiyai/GL-MCM)  
       <br>
     
