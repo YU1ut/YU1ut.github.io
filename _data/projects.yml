@@ -1,8 +1,14 @@
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
+    - Atsuyuki Miyai, Jingkang Yang, Jingyang Zhang, Yifei Ming, <strong>Qing Yu</strong>, Go Irie, Yixuan Li, Hai Li, Ziwei Liu, Kiyoharu Aizawa   
+      <strong>Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models</strong>  
+      The 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025.   
+      [[Paper]](https://arxiv.org/abs/2403.20331v3)  [[Code]](https://github.com/AtsuMiyai/UPD)  
+      <br>
     - <strong>Qing Yu</strong>, Mikihiro Tanaka and Kent Fujiwara    
       <strong>ReMoGPT: Part-Level Retrieval-Augmented Motion-Language Models</strong>  
       AAAI Conference on Artificial Intelligence (AAAI), 2025.    
+      [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/33044)  
       <br>
     - Kent Fujiwara, Mikihiro Tanaka and <strong>Qing Yu</strong>     
       <strong>Chronologically Accurate Retrieval for Temporal Grounding of Motion-Language Models</strong>  
@@ -81,6 +87,11 @@
 
 - name: Journal
   description: | # this will include new lines to allow paragraph
+    - Atsuyuki Miyai, Jingkang Yang, Jingyang Zhang, Yifei Ming, Yueqian Lin, <strong>Qing Yu</strong>, Go Irie, Shafiq Joty, Yixuan Li, Hai Li, Ziwei Liu, Toshihiko Yamasaki, Kiyoharu Aizawa   
+      <strong>Generalized Out-of-Distribution Detection and Beyond in Vision Language Model Era: A Survey</strong>  
+      Transactions on Machine Learning Research, 2025.   
+      [[Paper]](https://arxiv.org/abs/2407.21794)  [[Code]](https://github.com/AtsuMiyai/Awesome-OOD-VLM)  
+      <br>
     - Miyai Atsuyuki, <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa   
       <strong>GL-MCM: Global and Local Maximum Concept Matching for Zero-Shot Out-of-Distribution Detection</strong>  
       International Journal of Computer Vision, 2025.   
@@ -107,16 +118,7 @@
 
     
 
-- name: Preprints
-  description: | # this will include new lines to allow paragraph
-    - Atsuyuki Miyai, Jingkang Yang, Jingyang Zhang, Yifei Ming, Yueqian Lin, <strong>Qing Yu</strong>, Go Irie, Shafiq Joty, Yixuan Li, Hai Li, Ziwei Liu, Toshihiko Yamasaki, Kiyoharu Aizawa   
-      <strong>Generalized Out-of-Distribution Detection and Beyond in Vision Language Model Era: A Survey</strong>  
-      arXiv, 2024.   
-      [[Paper]](https://arxiv.org/pdf/2407.21794)  [[Code]](https://github.com/AtsuMiyai/Awesome-OOD-VLM)  
-      <br>
-    - Atsuyuki Miyai, Jingkang Yang, Jingyang Zhang, Yifei Ming, <strong>Qing Yu</strong>, Go Irie, Yixuan Li, Hai Li, Ziwei Liu, Kiyoharu Aizawa   
-      <strong>Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models</strong>  
-      arXiv, 2024.   
-      [[Paper]](https://arxiv.org/pdf/2403.20331)  [[Code]](https://github.com/AtsuMiyai/UPD)  
-      <br>
+# - name: Preprints
+#  description: | # this will include new lines to allow paragraph
+
     
