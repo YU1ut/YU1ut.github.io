@@ -2,7 +2,7 @@
   description: | # this will include new lines to allow paragraphs
     - Sakuya Ota\*, <strong>Qing Yu\*</strong>, Kent Fujiwara, Satoshi Ikehata and Ikuro Sato (\*equal contribution)    
       <strong>PINO: Person-Interaction Noise Optimization for Long-Duration and Customizable Motion Generation of Arbitrary-Sized Groups</strong>  
-      IEEE International Conference on Computer Vision (ICCV), 2025.  
+      IEEE/CVF International Conference on Computer Vision (ICCV), 2025.  
       [[Website]](https://yu1ut.com/)  [[Paper]](https://yu1ut.com/)  [[Code]](https://yu1ut.com/)  
       <br>
     - Atsuyuki Miyai, Jingkang Yang, Jingyang Zhang, Yifei Ming, <strong>Qing Yu</strong>, Go Irie, Yixuan Li, Hai Li, Ziwei Liu, Kiyoharu Aizawa   
@@ -82,7 +82,7 @@
       <br>
     - <strong>Qing Yu</strong> and Kiyoharu Aizawa  
       <strong>Unsupervised Out-of-Distribution Detection by Maximum Classifier Discrepancy</strong>  
-      IEEE International Conference on Computer Vision (ICCV), 2019.  
+      IEEE/CVF International Conference on Computer Vision (ICCV), 2019.  
       [[Paper]](https://arxiv.org/abs/1908.04951) [[Code]](https://github.com/YU1ut/UOOD-MCD)  
       <br>
     - <strong>Qing Yu</strong>, Masashi Anzawa, Sosuke Amano, Makoto Ogawa and Kiyoharu Aizawa  
