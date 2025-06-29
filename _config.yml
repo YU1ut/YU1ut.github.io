@@ -25,7 +25,7 @@ linkedin_username: qingyu-ut
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Qing YU. I am currently a research scientist at LY Corp. and a project researcher with The University of Tokyo, Japan.
-  I am a member of Virtual Human Lab at LY Corp. I am also a member of [Aizawa Labratory](https://www.hal.t.u-tokyo.ac.jp/) and working with [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).
+  I am a member of Virtual Human Lab at LY Corp. I was a member of [Aizawa Labratory](https://www.hal.t.u-tokyo.ac.jp/) and worked with [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).
   My research interest is in Computer Vision, including Motion Recognition, Motion Generation, Open-set Recognition and Domain Adaption.
   I was a recipient of Research Fellowships for Young Scientists (DC1) (2020-2023) and I was a recipient of [The University of Tokyo Fellowship](https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html) (2018-2020).
   I am most skilled in: <mark>Python</mark> and <mark>PyTorch</mark>.
