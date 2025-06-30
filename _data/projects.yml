@@ -5,12 +5,12 @@
       IEEE/CVF International Conference on Computer Vision (ICCV), 2025.  
       [[Website]](https://yu1ut.com/)  [[Paper]](https://yu1ut.com/)  [[Code]](https://yu1ut.com/)  
       <br>
-    - Atsuyuki Miyai, Jingkang Yang, Jingyang Zhang, Yifei Ming, <strong>Qing Yu</strong>, Go Irie, Yixuan Li, Hai Li, Ziwei Liu, Kiyoharu Aizawa   
+    - Atsuyuki Miyai, Jingkang Yang, Jingyang Zhang, Yifei Ming, <strong>Qing Yu</strong>, Go Irie, Yixuan Li, Hai Li, Ziwei Liu and Kiyoharu Aizawa   
       <strong>Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models</strong>  
       The 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025.   
       [[Paper]](https://arxiv.org/abs/2403.20331v3)  [[Code]](https://github.com/AtsuMiyai/UPD)  
       <br>
-    - Shiho Noda, Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie, Kiyoharu Aizawa
+    - Shiho Noda, Atsuyuki Miyai, <strong>Qing Yu</strong>, Go Irie and Kiyoharu Aizawa
       <strong>A Benchmark and Evaluation for Real-World Out-of-Distribution Detection Using Vision-Language Models</strong>  
       IEEE International Conference on Image Processing (ICIP), 2025.  
       [[Paper]](https://arxiv.org/abs/2501.18463)  [[Code]](https://github.com/hoshi23/OOD-X-Benchmarks)  
