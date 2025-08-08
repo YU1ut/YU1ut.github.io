@@ -9,7 +9,7 @@ email: test@email.com
 website: sproogen.github.io/modern-resume-theme
 
 # Social links
-twitter_username: jekyllrb
+x-twitter_username: jekyllrb
 github_username:  jekyll
 dribbble_username: jekyll
 facebook_username: jekyll
