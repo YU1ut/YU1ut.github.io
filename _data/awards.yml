@@ -1,6 +1,17 @@
-- name: Kaggle Master
+- name: ICCV Outstanding Reviewer
+  dates: October 2025
   description: |
-    [[Detail]](https://www.kaggle.com/angelecarre)
+    Outstanding reviewer award in International Conference on Computer Vision (ICCV) 2025.
+
+- name: CVPR Outstanding Reviewer
+  dates: June 2025
+  description: |
+    Outstanding reviewer award in Conference on Computer Vision and Pattern Recognition (CVPR) 2025.
+
+- name: ECCV Outstanding Reviewer
+  dates: October 2022
+  description: |
+    Outstanding reviewer award in European Conference on Computer Vision (ECCV) 2022.
 
 - name: SIGNATE Grandmaster
   description: |
