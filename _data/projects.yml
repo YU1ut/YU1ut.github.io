@@ -1,5 +1,15 @@
 - name: International Conferences
   description: | # this will include new lines to allow paragraphs
+    - <strong>Qing Yu</strong>, Akihisa Watanabe and Kent Fujiwara    
+      <strong>Causal Motion Diffusion Models for Autoregressive Motion Generation</strong>  
+      IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.   
+      [[Website]](https://yu1ut.com/CMDM-HP/)  [[Paper]](https://arxiv.org/abs/2602.22594)  
+      <br>
+    - Akihisa Watanabe, <strong>Qing Yu</strong>, Edgar Simo-Serra and Kent Fujiwara    
+      <strong>ProjFlow: Projection Sampling with Flow Matching for Zero-Shot Exact Spatial Motion Control</strong>  
+      IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.   
+      [[Website]](https://akihisa-watanabe.github.io/projflow.github.io/)  [[Paper]](https://arxiv.org/abs/2602.22742)  [[Code]](https://github.com/Akihisa-Watanabe/ProjFlow)  
+      <br>
     - Sakuya Ota\*, <strong>Qing Yu\*</strong>, Kent Fujiwara, Satoshi Ikehata and Ikuro Sato (\*equal contribution)    
       <strong>PINO: Person-Interaction Noise Optimization for Long-Duration and Customizable Motion Generation of Arbitrary-Sized Groups</strong>  
       IEEE/CVF International Conference on Computer Vision (ICCV), 2025.  
