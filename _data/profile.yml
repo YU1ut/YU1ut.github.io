@@ -3,7 +3,8 @@ secondary_name: ""
 navbar_name: "Qing YU"
 
 positions:
-- name: Research Scientist, LY Corporation
+- name: Research Scientist
+- name: LY Corporation
 
 email: "yu.qing@lycorp.co.jp"
 cv_link: /cv/CV.pdf

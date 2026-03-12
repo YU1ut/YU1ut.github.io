@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "LINE Seed Sans", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
 }
@@ -38,7 +38,6 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .text-profile-bio {
-    /* font-family: "Raleway"; */
     font-weight: 400;
 }
 
@@ -86,6 +85,10 @@ div.lazy {
     font-size: 100%;
 }
 
+.publication-title {
+    font-size: 1.1rem;
+}
+
 .profile-portrait {
     display: block;
     margin-left: auto;
@@ -124,5 +127,5 @@ div.lazy {
 }
 
 .email-text {
-    font-family: Source Code Pro, monospace;
+    font-family: "LINE Seed Sans", sans-serif;
 }
