@@ -109,20 +109,15 @@ div.lazy {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    margin: 0 0.12rem;
-    border-radius: 50%;
-    border: 1px solid #dee2e6;
+    margin: 0 0.35rem;
     color: #495057;
-    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    text-decoration: none;
+    transition: color 0.15s ease;
 }
 
 .social-icon-circle:hover,
 .social-icon-circle:focus-visible {
     color: #007bff;
-    border-color: #007bff;
-    background-color: #f8f9fa;
     text-decoration: none;
 }
 

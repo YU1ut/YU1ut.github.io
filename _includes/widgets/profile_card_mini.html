@@ -48,23 +48,12 @@
 
                 <div class="row pt-2">
                     <div class="col text-center h4">
-                        {% if gscholar_value %}
-                        {%- if gscholar_value contains 'scholar.google' -%}
-                        {%- assign gscholar_url = gscholar_value -%}
-                        {%- else -%}
-                        {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: gscholar_value -%}
-                        {%- endif -%}
-                        <a class="social-icon-circle no-break" target="_blank" href="{{ gscholar_url }}" aria-label="Google Scholar">
-                            <i class="ai ai-google-scholar"></i>
-                        </a>
-                        {% endif %}
-                        
                         {% if github_username %}
                         <a class="social-icon-circle no-break" target="_blank" href="https://github.com/{{ github_username }}" aria-label="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
                         {% endif %}
-
+                        
                         {% if site.data.profile.wechat_qrcode %}
                         <a class="social-icon-circle no-break" data-toggle="modal" data-target="#modal-wechat" aria-label="WeChat">
                             <i class="fab fa-weixin"></i>
@@ -74,6 +63,17 @@
                         {% if linkedin_username %}
                         <a class="social-icon-circle no-break" target="_blank" href="https://www.linkedin.com/in/{{ linkedin_username }}" aria-label="LinkedIn">
                             <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+
+                        {% if gscholar_value %}
+                        {%- if gscholar_value contains 'scholar.google' -%}
+                        {%- assign gscholar_url = gscholar_value -%}
+                        {%- else -%}
+                        {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: gscholar_value -%}
+                        {%- endif -%}
+                        <a class="social-icon-circle no-break" target="_blank" href="{{ gscholar_url }}" aria-label="Google Scholar">
+                            <i class="fa-brands fa-google-scholar"></i>
                         </a>
                         {% endif %}
 
