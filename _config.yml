@@ -1,64 +1,20 @@
-# Site
-# repository: sproogen/resume-theme
-# favicon: images/favicon.ico
+# Site settings
+url: "https://yu1ut.com"
+baseurl: ""
 
-# Personal info
-name: Qing YU
-title: Research Scientist
-email: yu.qing@lycorp.co.jp
-website: yu1ut.com
-
-# Social links
-x-twitter_username: YK_officia1
-github_username:  YU1ut
-kaggle_username: angelecarre
-facebook_username: yu1ut
-# flickr_username: jekyll
-# instagram_username: chillwildlife
-linkedin_username: qingyu-ut
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Qing YU. I am currently a research scientist at LY Corp. and a project researcher with The University of Tokyo, Japan.
-  I am a member of Virtual Human Lab at LY Corp. I was a member of [Aizawa Labratory](https://www.hal.t.u-tokyo.ac.jp/) and worked with [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).
-  My research interest is in Computer Vision, including Motion Recognition, Motion Generation, Open-set Recognition and Domain Adaption.
-  I was a recipient of Research Fellowships for Young Scientists (DC1) (2020-2023) and I was a recipient of [The University of Tokyo Fellowship](https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html) (2018-2020).
-  I am most skilled in: <mark>Python</mark> and <mark>PyTorch</mark>.
-  Full CV is [here](cv/CV.pdf).
-
-# Projects Section
-projects_title: Publications
-
-# Experience Section
-# experience_title: Experience
-
-# Education Section
-# educaton_title: Education
-
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my research interests, some of my other interests and hobbies are:
-   - Animation
-   - Diving
-   - Basketball
-   - Movie
-   - Dota2
-
-# Footer
-footer_show_references: false
-
-# Build settings
-# remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
+markdown: kramdown
+timezone: Asia/Tokyo
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+
+collections:
+  - publications
+  - news
+
+exclude:
+  - vendor
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby

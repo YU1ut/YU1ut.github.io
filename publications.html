@@ -1,0 +1,110 @@
+---
+layout: default
+title : Publications
+navbar_title: Publications
+body_attr: >-
+  data-spy="scroll" data-target="#navbar-year" data-offset="100"
+---
+
+{% assign pubs = site.publications | where: "mine", true | sort: "date" | reverse %}
+{% assign pubs_by_year = pubs | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign categories = pubs | map: "category" | compact | uniq | sort %}
+
+<div class="row">
+    <div class="col-12 col-lg-10">
+        <div class="my-3 p-3 bg-white shadow-sm rounded-xl">
+            <div class="d-flex align-items-center flex-wrap">
+                <span class="small text-muted mr-2 mb-2">Filter by category:</span>
+                <div id="publication-category-filter" class="btn-group btn-group-sm flex-wrap" role="group" aria-label="Publication category filter">
+                    <button type="button" class="btn btn-outline-secondary active mb-2 mr-2" data-category-key="all">All</button>
+                    {% for category in categories %}
+                    <button type="button" class="btn btn-outline-secondary mb-2 mr-2" data-category-key="{{ category | slugify }}">{{ category }}</button>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        {% for year in pubs_by_year %}
+        <section class="js-year-section" data-year="{{ year.name }}">
+            <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+            <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+                {% for item in year.items %}
+                    {% assign category_key = item.category | default: "Uncategorized" | slugify %}
+                    {% include widgets/publication_item.html item=item category=item.category category_key=category_key hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+                {% endfor %}
+            </div>
+        </section>
+        {% endfor %}
+    </div>
+
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for year in pubs_by_year %}
+            <a class="nav-link d-block js-year-link" data-year="{{ year.name }}" href="#year-{{ year.name }}">{{ year.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+
+<style>
+    .js-filter-hidden {
+        display: none !important;
+    }
+</style>
+
+<script>
+    (function () {
+        const filterRoot = document.getElementById("publication-category-filter");
+        if (!filterRoot) {
+            return;
+        }
+
+        const buttons = Array.from(filterRoot.querySelectorAll("button[data-category-key]"));
+        const publicationItems = Array.from(document.querySelectorAll(".js-publication-item"));
+        const yearSections = Array.from(document.querySelectorAll(".js-year-section"));
+        const yearLinks = Array.from(document.querySelectorAll(".js-year-link"));
+
+        const setActiveButton = (activeButton) => {
+            buttons.forEach((button) => {
+                button.classList.toggle("active", button === activeButton);
+            });
+        };
+
+        const applyFilter = (categoryKey) => {
+            const showAll = categoryKey === "all";
+
+            publicationItems.forEach((item) => {
+                const itemCategoryKey = item.getAttribute("data-category-key");
+                const shouldHide = !showAll && itemCategoryKey !== categoryKey;
+                item.classList.toggle("js-filter-hidden", shouldHide);
+            });
+
+            yearSections.forEach((section) => {
+                const year = section.getAttribute("data-year");
+                const hasVisibleItems = section.querySelector(".js-publication-item:not(.js-filter-hidden)") !== null;
+                section.classList.toggle("js-filter-hidden", !hasVisibleItems);
+
+                yearLinks.forEach((link) => {
+                    if (link.getAttribute("data-year") === year) {
+                        link.classList.toggle("d-none", !hasVisibleItems);
+                    }
+                });
+            });
+
+            if (window.jQuery && typeof window.jQuery.fn.scrollspy === "function") {
+                window.jQuery("body").scrollspy("refresh");
+            }
+        };
+
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const categoryKey = button.getAttribute("data-category-key");
+                setActiveButton(button);
+                applyFilter(categoryKey);
+            });
+        });
+
+        applyFilter("all");
+    })();
+</script>

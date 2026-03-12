@@ -1,0 +1,46 @@
+---
+layout: default
+title: Honors & Awards
+navbar_title: Honors & Awards
+---
+
+<div class="row">
+  <div class="col-12">
+    <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+      <h6 class="border-bottom border-gray p-3 mb-0"><i class="fas fa-trophy"></i> Honors & Awards</h6>
+      <div class="p-3">
+        <ul class="list-unstyled mb-0">
+          {% if site.data.awards and site.data.awards.size > 0 %}
+            {% for item in site.data.awards %}
+              {% assign item_date = item.dates | default: item.date %}
+              <li class="{% unless forloop.last %}pb-3 mb-3 border-bottom border-gray{% endunless %}">
+                <div class="d-flex">
+                  <div><strong>{{ item.name }}</strong></div>
+                  {% if item_date %}
+                    <div class="ml-auto text-muted no-break"><em>{{ item_date }}</em></div>
+                  {% endif %}
+                </div>
+                {% if item.description %}
+                  <div class="small mt-2">{{ item.description | markdownify }}</div>
+                {% endif %}
+              </li>
+            {% endfor %}
+          {% elsif site.data.profile.awards and site.data.profile.awards.size > 0 %}
+            {% for item in site.data.profile.awards %}
+              <li class="{% unless forloop.last %}pb-3 mb-3 border-bottom border-gray{% endunless %}">
+                <div class="d-flex">
+                  <div><strong>{{ item.name }}</strong></div>
+                  {% if item.date %}
+                    <div class="ml-auto text-muted no-break"><em>{{ item.date }}</em></div>
+                  {% endif %}
+                </div>
+              </li>
+            {% endfor %}
+          {% else %}
+            <li>No honors or awards listed yet.</li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

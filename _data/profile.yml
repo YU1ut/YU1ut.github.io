@@ -1,0 +1,55 @@
+primary_name: "Qing YU"
+secondary_name: ""
+navbar_name: "Qing YU"
+
+positions:
+- name: Research Scientist, LY Corporation
+
+email: "yu.qing@lycorp.co.jp"
+cv_link: /cv/CV.pdf
+github_username: YU1ut
+google_scholar: https://scholar.google.com/citations?user=As3ImtEAAAAJ&hl=en
+linkedin_username: qingyu-ut
+github: YU1ut
+linkedin: qingyu-ut
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>Hi, my name is Qing YU. I am currently a research scientist at <a href="https://research.lycorp.co.jp/en" target="_blank">LY Corporation</a>.</p>
+  <p>I am a member of the Virtual Human Lab at LY Corp. I was previously a member of <a href="https://www.hal.t.u-tokyo.ac.jp/" target="_blank">Aizawa Laboratory</a> and worked with Prof. Kiyoharu Aizawa. My research interests include computer vision, motion recognition, motion generation, open-set recognition, and domain adaptation.</p>
+  <p>I was a recipient of JSPS Research Fellowships for Young Scientists (DC1, 2020-2023) and The University of Tokyo Fellowship (2018-2020).</p>
+
+portrait_url: /images/profile.jpg
+portrait_caption: >-
+  Qing YU
+
+education:
+- name: The University of Tokyo
+  position: >-
+    PhD, Graduate School of Information Science and Technology
+  date: Apr. 2020 - Mar. 2023
+- name: The University of Tokyo
+  position: >-
+    Master, Graduate School of Interdisciplinary Information Studies
+  date: Apr. 2018 - Mar. 2020
+- name: The University of Tokyo
+  position: >-
+    Bachelor, Department of Information and Communication
+  date: Apr. 2014 - Mar. 2018
+
+experience:
+- name: LY Corp.
+  position: Research Scientist
+  date: Oct. 2023 - present
+- name: LINE
+  position: Research Scientist
+  date: Apr. 2023 - Sep. 2023
+- name: LINE
+  position: Research Intern
+  date: Dec. 2021 - May 2022
+- name: OMRON SINIC X
+  position: Research Intern
+  date: Jul. 2019 - Dec. 2019; Aug. 2020 - Sep. 2021
+- name: pluszero Inc.
+  position: Part-time Software Engineer
+  date: May 2016 - Mar. 2023

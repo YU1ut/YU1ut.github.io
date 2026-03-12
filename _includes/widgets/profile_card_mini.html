@@ -1,0 +1,111 @@
+{% assign gscholar_value = site.data.profile.google_scholar | default: site.data.profile.gscholar %}
+{% assign github_username = site.data.profile.github_username | default: site.data.profile.github %}
+{% assign linkedin_username = site.data.profile.linkedin_username | default: site.data.profile.linkedin %}
+<div class="row sticky-top" style="top: 80px">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body px-4 pt-4 pb-3">
+                <div class="row">
+                    <div class="col">
+                        {% if site.data.profile.portrait_url %}
+                        <!-- When the screen is wider than md, float the portrait on the right -->
+                        <div class="figure d-none d-md-block">
+                            <img 
+                                src="{{ site.data.profile.portrait_url | relative_url }}" 
+                                class="figure-img img-fluid rounded-circle profile-portrait" 
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="{{ site.data.profile.portrait_caption }}"
+                                alt="Portrait">
+                        </div>
+                        <div class="mb-3 d-md-none text-center">
+                            <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle profile-portrait profile-portrait-sm" alt="Portrait">
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center h4">
+                        {{ site.data.profile.primary_name }}
+                    </div>
+                </div>
+
+                <div class="row small">
+                    <div class="col text-center">
+                        {% for position in site.data.profile.positions %}
+                        {{ position.name }}<br/>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="row small">
+                    <div class="col text-center">
+                        <a class="email-text" href="mailto:{{ site.data.profile.email }}">
+                            {{ site.data.profile.email | replace: "@", "(at)" }}
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row pt-2">
+                    <div class="col text-center h4">
+                        {% if gscholar_value %}
+                        {%- if gscholar_value contains 'scholar.google' -%}
+                        {%- assign gscholar_url = gscholar_value -%}
+                        {%- else -%}
+                        {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: gscholar_value -%}
+                        {%- endif -%}
+                        <a class="social-icon-circle no-break" target="_blank" href="{{ gscholar_url }}" aria-label="Google Scholar">
+                            <i class="ai ai-google-scholar"></i>
+                        </a>
+                        {% endif %}
+                        
+                        {% if github_username %}
+                        <a class="social-icon-circle no-break" target="_blank" href="https://github.com/{{ github_username }}" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.wechat_qrcode %}
+                        <a class="social-icon-circle no-break" data-toggle="modal" data-target="#modal-wechat" aria-label="WeChat">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                        {% endif %}
+
+                        {% if linkedin_username %}
+                        <a class="social-icon-circle no-break" target="_blank" href="https://www.linkedin.com/in/{{ linkedin_username }}" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.orcid %}
+                        <a class="social-icon-circle no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}" aria-label="ORCID">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% if site.data.profile.wechat_qrcode %}
+<div class="modal fade" id="modal-wechat" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <img src="{{ site.data.profile.wechat_qrcode | relative_url }}" class="img-fluid">
+            </div>
+            {% if site.data.profile.wechat_prompt %}
+            <div class="modal-body p-1">
+                {{ site.data.profile.wechat_prompt }}
+            </div>
+            {% endif %}
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
