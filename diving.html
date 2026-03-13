@@ -56,19 +56,25 @@ navbar_title: Diving
 {% endif %}
 
 {% if mapped_sites and mapped_sites.size > 0 %}
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.10.0/dist/maplibre-gl.css" />
 <style>
   .diving-map {
     height: 460px;
     min-height: 320px;
   }
 </style>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="https://unpkg.com/maplibre-gl@5.10.0/dist/maplibre-gl.js"></script>
 <script>
   (function () {
     const sites = {{ mapped_sites | jsonify }};
     const mapElement = document.getElementById("diving-map");
-    if (!mapElement || typeof L === "undefined" || !Array.isArray(sites) || sites.length === 0) {
+    if (!mapElement || !Array.isArray(sites) || sites.length === 0) {
+      return;
+    }
+
+    if (typeof maplibregl === "undefined") {
+      mapElement.classList.add("d-flex", "align-items-center", "justify-content-center", "text-muted", "small");
+      mapElement.textContent = "Map library failed to load. Please refresh or try another network.";
       return;
     }
 
@@ -92,28 +98,54 @@ navbar_title: Diving
       return;
     }
 
-    const map = L.map(mapElement, { scrollWheelZoom: false });
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 18,
-      attribution: "&copy; OpenStreetMap contributors"
-    }).addTo(map);
+    const map = new maplibregl.Map({
+      container: mapElement,
+      style: {
+        version: 8,
+        sources: {
+          osm: {
+            type: "raster",
+            tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+            tileSize: 256,
+            attribution: "&copy; OpenStreetMap contributors"
+          }
+        },
+        layers: [
+          {
+            id: "osm",
+            type: "raster",
+            source: "osm"
+          }
+        ]
+      },
+      center: [normalizedSites[0].lng, normalizedSites[0].lat],
+      zoom: 4
+    });
 
-    const bounds = [];
+    map.scrollZoom.disable();
+
+    const bounds = new maplibregl.LngLatBounds();
+
     normalizedSites.forEach((site) => {
-      const marker = L.marker([site.lat, site.lng]).addTo(map);
       const title = site.name ? escapeHtml(site.name) : "Dive Site";
       const location = site.location ? `<div class="small text-muted">${escapeHtml(site.location)}</div>` : "";
       const date = site.date ? `<div class="small"><em>${escapeHtml(site.date)}</em></div>` : "";
-      marker.bindPopup(`<strong>${title}</strong>${location}${date}`);
-      bounds.push([site.lat, site.lng]);
+
+      const popup = new maplibregl.Popup({ offset: 20 }).setHTML(`<strong>${title}</strong>${location}${date}`);
+      new maplibregl.Marker({ color: "#1d4ed8" })
+        .setLngLat([site.lng, site.lat])
+        .setPopup(popup)
+        .addTo(map);
+
+      bounds.extend([site.lng, site.lat]);
     });
 
-    if (bounds.length === 1) {
-      map.setView(bounds[0], 7);
-      return;
+    if (normalizedSites.length === 1) {
+      map.setCenter([normalizedSites[0].lng, normalizedSites[0].lat]);
+      map.setZoom(7);
+    } else {
+      map.fitBounds(bounds, { padding: 40, duration: 0 });
     }
-
-    map.fitBounds(bounds, { padding: [40, 40] });
   })();
 </script>
 {% endif %}
