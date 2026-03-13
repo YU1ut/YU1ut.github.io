@@ -86,6 +86,24 @@ navbar_title: Diving
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#39;");
 
+    const getLinkColor = () => {
+      const probe = document.createElement("a");
+      probe.href = "#";
+      probe.textContent = ".";
+      probe.style.position = "absolute";
+      probe.style.visibility = "hidden";
+      probe.style.pointerEvents = "none";
+      mapElement.appendChild(probe);
+      const color = window.getComputedStyle(probe).color;
+      probe.remove();
+
+      if (!color || color === "rgba(0, 0, 0, 0)") {
+        return "#007bff";
+      }
+
+      return color;
+    };
+
     const normalizedSites = sites
       .map((site) => ({
         ...site,
@@ -97,6 +115,8 @@ navbar_title: Diving
     if (normalizedSites.length === 0) {
       return;
     }
+
+    const markerColor = getLinkColor();
 
     const map = new maplibregl.Map({
       container: mapElement,
@@ -123,6 +143,7 @@ navbar_title: Diving
     });
 
     map.scrollZoom.disable();
+    map.addControl(new maplibregl.NavigationControl(), "top-right");
 
     const bounds = new maplibregl.LngLatBounds();
 
@@ -132,7 +153,7 @@ navbar_title: Diving
       const date = site.date ? `<div class="small"><em>${escapeHtml(site.date)}</em></div>` : "";
 
       const popup = new maplibregl.Popup({ offset: 20 }).setHTML(`<strong>${title}</strong>${location}${date}`);
-      new maplibregl.Marker({ color: "#1d4ed8" })
+      new maplibregl.Marker({ color: markerColor })
         .setLngLat([site.lng, site.lat])
         .setPopup(popup)
         .addTo(map);
