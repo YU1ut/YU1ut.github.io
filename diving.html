@@ -86,6 +86,9 @@ navbar_title: Diving
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#39;");
 
+    const PACIFIC_CENTER_LNG = 180;
+    const normalizeLngAroundCenter = (lng, centerLng) => ((lng - centerLng + 540) % 360) - 180 + centerLng;
+
     const getLinkColor = () => {
       const probe = document.createElement("a");
       probe.href = "#";
@@ -110,13 +113,18 @@ navbar_title: Diving
         lat: Number(site.lat),
         lng: Number(site.lng)
       }))
-      .filter((site) => Number.isFinite(site.lat) && Number.isFinite(site.lng));
+      .filter((site) => Number.isFinite(site.lat) && Number.isFinite(site.lng))
+      .map((site) => ({
+        ...site,
+        mapLng: normalizeLngAroundCenter(site.lng, PACIFIC_CENTER_LNG)
+      }));
 
     if (normalizedSites.length === 0) {
       return;
     }
 
     const markerColor = getLinkColor();
+    const averageLat = normalizedSites.reduce((sum, site) => sum + site.lat, 0) / normalizedSites.length;
 
     const map = new maplibregl.Map({
       container: mapElement,
@@ -138,14 +146,12 @@ navbar_title: Diving
           }
         ]
       },
-      center: [normalizedSites[0].lng, normalizedSites[0].lat],
-      zoom: 4
+      center: [PACIFIC_CENTER_LNG, averageLat],
+      zoom: 2.5
     });
 
     map.scrollZoom.disable();
     map.addControl(new maplibregl.NavigationControl(), "top-right");
-
-    const bounds = new maplibregl.LngLatBounds();
 
     normalizedSites.forEach((site) => {
       const title = site.name ? escapeHtml(site.name) : "Dive Site";
@@ -154,19 +160,13 @@ navbar_title: Diving
 
       const popup = new maplibregl.Popup({ offset: 20 }).setHTML(`<strong>${title}</strong>${location}${date}`);
       new maplibregl.Marker({ color: markerColor })
-        .setLngLat([site.lng, site.lat])
+        .setLngLat([site.mapLng, site.lat])
         .setPopup(popup)
         .addTo(map);
-
-      bounds.extend([site.lng, site.lat]);
     });
 
-    if (normalizedSites.length === 1) {
-      map.setCenter([normalizedSites[0].lng, normalizedSites[0].lat]);
-      map.setZoom(7);
-    } else {
-      map.fitBounds(bounds, { padding: 40, duration: 0 });
-    }
+    map.setCenter([PACIFIC_CENTER_LNG, averageLat]);
+    map.setZoom(1.1);
   })();
 </script>
 {% endif %}
