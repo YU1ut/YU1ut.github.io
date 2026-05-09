@@ -9,6 +9,30 @@
 #   lat: 7.2471
 #   lng: 134.3649
 #   notes: Strong current drift dive with reef sharks.
+- name: Moalboal
+  location: Cebu, Philippines
+  lat: 9.9433
+  lng: 123.3992
+  notes: Famous for the sardine run, easy reef access, and frequent turtle encounters.
+
+- name: Malapascua
+  location: Daanbantayan, Cebu, Philippines
+  lat: 11.3270
+  lng: 124.1124
+  notes: Best known for early-morning thresher shark dives, plus walls and nearby island sites.
+
+- name: Sumilon
+  location: Oslob, Cebu, Philippines
+  lat: 9.4328
+  lng: 123.3908
+  notes: Clear-water drift dives with steep walls, sharks, strong fish life, and healthy coral.
+
+- name: Waikiki
+  location: Oahu, Hawaii, USA
+  lat: 21.2767
+  lng: -157.8294
+  notes: Reef and wreck dives with tropical fish, plus Hawaiian green sea turtles.
+
 - name: Cozumel
   location: Quintana Roo, Mexico
   lat: 20.4220
@@ -20,12 +44,6 @@
   lat: 20.3315
   lng: -87.3972
   notes: Cenote cavern dive with dramatic light beams, halocline layers, and crystal-clear water.
-  
-- name: Waikiki
-  location: Oahu, Hawaii, USA
-  lat: 21.2767
-  lng: -157.8294
-  notes: Reef and wreck dives with tropical fish, plus Hawaiian green sea turtles.
 
 - name: Kona
   location: Hawaii, USA
@@ -38,18 +56,6 @@
   lat: 7.3426
   lng: 134.4789
   notes: Current-rich sites with dramatic walls, sharks, and dense schooling fish.
-
-- name: Izu
-  location: Shizuoka, Japan
-  lat: 34.9730
-  lng: 138.7800
-  notes: Temperate-water diving with volcanic topography and excellent macro life.
-
-- name: Kushimoto
-  location: Wakayama, Japan
-  lat: 33.4725
-  lng: 135.7812
-  notes: Kuroshio-influenced waters with colorful soft corals and rich fish diversity.
 
 - name: Okinawa
   location: Okinawa, Japan
@@ -69,20 +75,14 @@
   lng: 123.8439
   notes: Remote island reefs with healthy coral and abundant small marine life.
 
-- name: Moalboal
-  location: Cebu, Philippines
-  lat: 9.9433
-  lng: 123.3992
-  notes: Famous for the sardine run, easy reef access, and frequent turtle encounters.
+- name: Izu
+  location: Shizuoka, Japan
+  lat: 34.9730
+  lng: 138.7800
+  notes: Temperate-water diving with volcanic topography and excellent macro life.
 
-- name: Malapascua
-  location: Daanbantayan, Cebu, Philippines
-  lat: 11.3270
-  lng: 124.1124
-  notes: Best known for early-morning thresher shark dives, plus walls and nearby island sites.
-
-- name: Sumilon
-  location: Oslob, Cebu, Philippines
-  lat: 9.4328
-  lng: 123.3908
-  notes: Clear-water drift dives with steep walls, sharks, strong fish life, and healthy coral.
+- name: Kushimoto
+  location: Wakayama, Japan
+  lat: 33.4725
+  lng: 135.7812
+  notes: Kuroshio-influenced waters with colorful soft corals and rich fish diversity.
