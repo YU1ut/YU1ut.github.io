@@ -11,36 +11,42 @@
 #   notes: Strong current drift dive with reef sharks.
 - name: Moalboal
   location: Cebu, Philippines
+  date: May 2026
   lat: 9.9433
   lng: 123.3992
   notes: Famous for the sardine run, easy reef access, and frequent turtle encounters.
 
 - name: Malapascua
   location: Daanbantayan, Cebu, Philippines
+  date: May 2026
   lat: 11.3270
   lng: 124.1124
   notes: Best known for early-morning thresher shark dives, plus walls and nearby island sites.
 
 - name: Sumilon
   location: Oslob, Cebu, Philippines
+  date: May 2026
   lat: 9.4328
   lng: 123.3908
   notes: Clear-water drift dives with steep walls, sharks, strong fish life, and healthy coral.
 
 - name: Waikiki
   location: Oahu, Hawaii, USA
+  date: Oct 2025
   lat: 21.2767
   lng: -157.8294
   notes: Reef and wreck dives with tropical fish, plus Hawaiian green sea turtles.
 
 - name: Cozumel
   location: Quintana Roo, Mexico
+  date: Aug 2025
   lat: 20.4220
   lng: -86.9223
   notes: Fast drift dives along healthy walls with clear visibility and frequent turtle sightings.
 
 - name: Dos Ojos
   location: Tulum, Quintana Roo, Mexico
+  date: Aug 2025
   lat: 20.3315
   lng: -87.3972
   notes: Cenote cavern dive with dramatic light beams, halocline layers, and crystal-clear water.
@@ -53,6 +59,7 @@
 
 - name: Palau
   location: Koror, Palau
+  date: Nov. 2023
   lat: 7.3426
   lng: 134.4789
   notes: Current-rich sites with dramatic walls, sharks, and dense schooling fish.
@@ -65,12 +72,14 @@
 
 - name: Miyako
   location: Okinawa, Japan
+  date: Sep 2022
   lat: 24.8056
   lng: 125.2811
   notes: Known for underwater arches, tunnels, and cave-style swim-throughs.
 
 - name: Iriomote
   location: Okinawa, Japan
+  date: Oct 2023
   lat: 24.3878
   lng: 123.8439
   notes: Remote island reefs with healthy coral and abundant small marine life.
@@ -83,6 +92,7 @@
 
 - name: Kushimoto
   location: Wakayama, Japan
+  date: July 2025
   lat: 33.4725
   lng: 135.7812
   notes: Kuroshio-influenced waters with colorful soft corals and rich fish diversity.
