@@ -37,6 +37,13 @@
   lng: -157.8294
   notes: Reef and wreck dives with tropical fish, plus Hawaiian green sea turtles.
 
+- name: Okinawa
+  location: Okinawa, Japan
+  date: Sep 2025
+  lat: 26.2124
+  lng: 127.6809
+  notes: Warm blue water and coral-garden dives with relaxed conditions.
+
 - name: Cozumel
   location: Quintana Roo, Mexico
   date: Aug 2025
@@ -51,31 +58,19 @@
   lng: -87.3972
   notes: Cenote cavern dive with dramatic light beams, halocline layers, and crystal-clear water.
 
-- name: Kona
-  location: Hawaii, USA
-  lat: 19.6406
-  lng: -155.9969
-  notes: Volcanic reef dives and memorable night dives with manta rays.
+- name: Kushimoto
+  location: Wakayama, Japan
+  date: July 2025
+  lat: 33.4725
+  lng: 135.7812
+  notes: Kuroshio-influenced waters with colorful soft corals and rich fish diversity.
 
 - name: Palau
   location: Koror, Palau
-  date: Nov. 2023
+  date: Nov 2023
   lat: 7.3426
   lng: 134.4789
   notes: Current-rich sites with dramatic walls, sharks, and dense schooling fish.
-
-- name: Okinawa
-  location: Okinawa, Japan
-  lat: 26.2124
-  lng: 127.6809
-  notes: Warm blue water and coral-garden dives with relaxed conditions.
-
-- name: Miyako
-  location: Okinawa, Japan
-  date: Sep 2022
-  lat: 24.8056
-  lng: 125.2811
-  notes: Known for underwater arches, tunnels, and cave-style swim-throughs.
 
 - name: Iriomote
   location: Okinawa, Japan
@@ -84,15 +79,22 @@
   lng: 123.8439
   notes: Remote island reefs with healthy coral and abundant small marine life.
 
+- name: Kona
+  location: Hawaii, USA
+  date: Jan 2023
+  lat: 19.6406
+  lng: -155.9969
+  notes: Volcanic reef dives and memorable night dives with manta rays.
+
+- name: Miyako
+  location: Okinawa, Japan
+  date: Sep 2022
+  lat: 24.8056
+  lng: 125.2811
+  notes: Known for underwater arches, tunnels, and cave-style swim-throughs.
+
 - name: Izu
   location: Shizuoka, Japan
   lat: 34.9730
   lng: 138.7800
   notes: Temperate-water diving with volcanic topography and excellent macro life.
-
-- name: Kushimoto
-  location: Wakayama, Japan
-  date: July 2025
-  lat: 33.4725
-  lng: 135.7812
-  notes: Kuroshio-influenced waters with colorful soft corals and rich fish diversity.
