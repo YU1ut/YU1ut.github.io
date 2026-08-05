@@ -9,6 +9,20 @@
 #   lat: 7.2471
 #   lng: 134.3649
 #   notes: Strong current drift dive with reef sharks.
+- name: Kumomi
+  location: Shizuoka, Japan
+  date: Aug 2026
+  lat: 34.7276
+  lng: 138.7444
+  notes: Coastal diving known for underwater arches, caverns, and dramatic rock formations.
+
+- name: Hachijojima
+  location: Tokyo, Japan
+  date: July 2026
+  lat: 33.1095
+  lng: 139.7916
+  notes: Volcanic reefs with underwater arches, abundant sea turtles, and distinctive island marine life.
+
 - name: Ishigaki
   location: Okinawa, Japan
   date: June 2026
