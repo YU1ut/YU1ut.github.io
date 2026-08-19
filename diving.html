@@ -8,55 +8,24 @@ navbar_title: Diving
 {% assign mapped_sites = dive_sites | where_exp: "site", "site.lat" | where_exp: "site", "site.lng" %}
 {% assign instagram_gallery = site.data.instagram_gallery %}
 
-{% if instagram_gallery.embed_ref %}
+{% if instagram_gallery.elfsight_app_id %}
 <div class="row">
   <div class="col-12">
     <section class="my-3 p-0 bg-white shadow-sm rounded-xl overflow-hidden" aria-labelledby="underwater-gallery-title">
       <div class="instagram-gallery-header d-flex flex-wrap align-items-center border-bottom border-gray p-3">
-        <div class="instagram-gallery-heading mr-3">
+        <div>
           <h6 id="underwater-gallery-title" class="mb-1"><i class="fab fa-instagram"></i> Underwater Gallery</h6>
           <p class="small text-muted mb-0">A few moments from below the surface.</p>
         </div>
-        <a
-          class="instagram-follow-button btn btn-sm btn-outline-primary ml-auto"
-          href="{{ instagram_gallery.profile_url }}"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="View @{{ instagram_gallery.username }} on Instagram"
-        >
-          Follow<span class="instagram-follow-username"> @{{ instagram_gallery.username }}</span>
-          <i class="fas fa-arrow-up-right-from-square ml-1" aria-hidden="true"></i>
-        </a>
       </div>
       <div class="p-3">
-        <div class="embedsocial-hashtag" data-ref="{{ instagram_gallery.embed_ref }}">
-          <a
-            class="feed-powered-by-es feed-powered-by-es-slider-img es-widget-branding"
-            href="https://embedsocial.jp/"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="EmbedSocialで作成しました"
-          >
-            <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial">
-            <div class="es-widget-branding-text">EmbedSocialで作成しました</div>
-          </a>
-        </div>
+        <!-- Elfsight Instagram Feed | Instagram Feed -->
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-{{ instagram_gallery.elfsight_app_id }}" data-elfsight-app-lazy></div>
       </div>
     </section>
   </div>
 </div>
-<script>
-  (function (document, tagName, scriptId) {
-    if (document.getElementById(scriptId)) {
-      return;
-    }
-
-    const script = document.createElement(tagName);
-    script.id = scriptId;
-    script.src = "https://embedsocial.com/cdn/ht.js";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  }(document, "script", "EmbedSocialHashtagScript"));
-</script>
 {% endif %}
 
 <div class="row">
