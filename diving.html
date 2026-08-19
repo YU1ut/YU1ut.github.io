@@ -30,21 +30,27 @@ navbar_title: Diving
       <div class="instagram-gallery p-3">
         {% for post in instagram_gallery.posts %}
           <div class="instagram-gallery-item">
-            <iframe
-              class="instagram-gallery-embed"
-              src="{{ post.url }}embed/"
-              title="Instagram underwater {{ post.kind }} {{ forloop.index }}"
-              loading="lazy"
-              scrolling="no"
-              allowtransparency="true"
-              allowfullscreen="true"
-            ></iframe>
+            <blockquote
+              class="instagram-media"
+              data-instgrm-permalink="{{ post.url }}?utm_source=ig_embed&amp;utm_campaign=loading"
+              data-instgrm-version="14"
+              aria-label="Instagram underwater {{ post.kind }} {{ forloop.index }}"
+              style="background:#fff; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"
+            >
+              <a
+                class="instagram-embed-fallback"
+                href="{{ post.url }}?utm_source=ig_embed&amp;utm_campaign=loading"
+                target="_blank"
+                rel="noopener noreferrer"
+              >View this post on Instagram</a>
+            </blockquote>
           </div>
         {% endfor %}
       </div>
     </section>
   </div>
 </div>
+<script async src="//www.instagram.com/embed.js"></script>
 {% endif %}
 
 <div class="row">
