@@ -125,19 +125,13 @@ div.lazy {
     font-family: "LINE Seed Sans", sans-serif;
 }
 
-.instagram-gallery-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .instagram-gallery-heading {
     min-width: 0;
 }
 
 @media (max-width: 575.98px) {
     .instagram-gallery-header {
-        display: block;
+        display: block !important;
     }
 
     .instagram-gallery-heading {
