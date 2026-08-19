@@ -124,3 +124,31 @@ div.lazy {
 .email-text {
     font-family: "LINE Seed Sans", sans-serif;
 }
+
+.instagram-gallery-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.instagram-gallery-heading {
+    min-width: 0;
+}
+
+@media (max-width: 575.98px) {
+    .instagram-gallery-header {
+        display: block;
+    }
+
+    .instagram-gallery-heading {
+        margin-right: 0 !important;
+    }
+
+    .instagram-follow-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0.75rem 0 0 !important;
+    }
+}
