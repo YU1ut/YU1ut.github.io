@@ -124,33 +124,3 @@ div.lazy {
 .email-text {
     font-family: "LINE Seed Sans", sans-serif;
 }
-
-.instagram-gallery {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    align-items: start;
-}
-
-.instagram-gallery-item {
-    min-width: 0;
-    overflow: hidden;
-    border-radius: 0.8rem;
-    background: #fff;
-}
-
-.instagram-gallery .instagram-media {
-    width: 100% !important;
-    min-width: 0 !important;
-    margin: 0 !important;
-}
-
-.instagram-embed-fallback {
-    display: none;
-}
-
-@media (max-width: 767.98px) {
-    .instagram-gallery {
-        grid-template-columns: minmax(0, 1fr);
-    }
-}

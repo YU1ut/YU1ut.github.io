@@ -8,7 +8,7 @@ navbar_title: Diving
 {% assign mapped_sites = dive_sites | where_exp: "site", "site.lat" | where_exp: "site", "site.lng" %}
 {% assign instagram_gallery = site.data.instagram_gallery %}
 
-{% if instagram_gallery.posts and instagram_gallery.posts.size > 0 %}
+{% if instagram_gallery.embed_ref %}
 <div class="row">
   <div class="col-12">
     <section class="my-3 p-0 bg-white shadow-sm rounded-xl overflow-hidden" aria-labelledby="underwater-gallery-title">
@@ -27,30 +27,35 @@ navbar_title: Diving
           Follow @{{ instagram_gallery.username }} <i class="fas fa-arrow-up-right-from-square ml-1" aria-hidden="true"></i>
         </a>
       </div>
-      <div class="instagram-gallery p-3">
-        {% for post in instagram_gallery.posts %}
-          <div class="instagram-gallery-item">
-            <blockquote
-              class="instagram-media"
-              data-instgrm-permalink="{{ post.url }}?utm_source=ig_embed&amp;utm_campaign=loading"
-              data-instgrm-version="14"
-              aria-label="Instagram underwater {{ post.kind }} {{ forloop.index }}"
-              style="background:#fff; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"
-            >
-              <a
-                class="instagram-embed-fallback"
-                href="{{ post.url }}?utm_source=ig_embed&amp;utm_campaign=loading"
-                target="_blank"
-                rel="noopener noreferrer"
-              >View this post on Instagram</a>
-            </blockquote>
-          </div>
-        {% endfor %}
+      <div class="p-3">
+        <div class="embedsocial-hashtag" data-ref="{{ instagram_gallery.embed_ref }}">
+          <a
+            class="feed-powered-by-es feed-powered-by-es-slider-img es-widget-branding"
+            href="https://embedsocial.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="EmbedSocialで作成しました"
+          >
+            <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial">
+            <div class="es-widget-branding-text">EmbedSocialで作成しました</div>
+          </a>
+        </div>
       </div>
     </section>
   </div>
 </div>
-<script async src="https://www.instagram.com/embed.js"></script>
+<script>
+  (function (document, tagName, scriptId) {
+    if (document.getElementById(scriptId)) {
+      return;
+    }
+
+    const script = document.createElement(tagName);
+    script.id = scriptId;
+    script.src = "https://embedsocial.com/cdn/ht.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  }(document, "script", "EmbedSocialHashtagScript"));
+</script>
 {% endif %}
 
 <div class="row">
