@@ -6,6 +6,47 @@ navbar_title: Diving
 
 {% assign dive_sites = site.data.diving %}
 {% assign mapped_sites = dive_sites | where_exp: "site", "site.lat" | where_exp: "site", "site.lng" %}
+{% assign instagram_gallery = site.data.instagram_gallery %}
+
+{% if instagram_gallery.posts and instagram_gallery.posts.size > 0 %}
+<div class="row">
+  <div class="col-12">
+    <section class="my-3 p-0 bg-white shadow-sm rounded-xl overflow-hidden" aria-labelledby="underwater-gallery-title">
+      <div class="d-flex flex-wrap align-items-center border-bottom border-gray p-3">
+        <div class="mr-3">
+          <h6 id="underwater-gallery-title" class="mb-1"><i class="fab fa-instagram"></i> Underwater Gallery</h6>
+          <p class="small text-muted mb-0">A few moments from below the surface.</p>
+        </div>
+        <a
+          class="btn btn-sm btn-outline-primary ml-auto"
+          href="{{ instagram_gallery.profile_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View @{{ instagram_gallery.username }} on Instagram"
+        >
+          Follow @{{ instagram_gallery.username }} <i class="fas fa-arrow-up-right-from-square ml-1" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="instagram-gallery p-3">
+        {% for post in instagram_gallery.posts %}
+          <div class="instagram-gallery-item">
+            <blockquote
+              class="instagram-media"
+              data-instgrm-permalink="{{ post.url }}"
+              data-instgrm-version="14"
+            >
+              <a href="{{ post.url }}" target="_blank" rel="noopener noreferrer">
+                {{ post.caption }} — view on Instagram
+              </a>
+            </blockquote>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</div>
+<script async src="https://www.instagram.com/embed.js"></script>
+{% endif %}
 
 <div class="row">
   <div class="col-12">

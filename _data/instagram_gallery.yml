@@ -1,0 +1,23 @@
+username: yk_officia1
+profile_url: https://www.instagram.com/yk_officia1/
+
+# Add or reorder post/reel URLs here to update the gallery on the Diving page.
+posts:
+  - url: https://www.instagram.com/yk_officia1/reel/DcGaovTzbV3/
+    caption: A shimmering school of fish underwater
+    kind: reel
+  - url: https://www.instagram.com/yk_officia1/reel/DcDnVSZTXH2/
+    caption: A shark gliding over the sandy seafloor
+    kind: reel
+  - url: https://www.instagram.com/yk_officia1/reel/DcDmmAsTq8V/
+    caption: Diving among a group of sharks
+    kind: reel
+  - url: https://www.instagram.com/yk_officia1/p/DaY3VnBE6Y8/
+    caption: A patterned nudibranch on the reef
+    kind: photo
+  - url: https://www.instagram.com/yk_officia1/p/DaVGm4kk9g8/
+    caption: Two colorful nudibranchs underwater
+    kind: photo
+  - url: https://www.instagram.com/yk_officia1/reel/DZ6ErYBzBzD/
+    caption: Underwater memories from Ishigaki
+    kind: reel
