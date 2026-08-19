@@ -30,22 +30,21 @@ navbar_title: Diving
       <div class="instagram-gallery p-3">
         {% for post in instagram_gallery.posts %}
           <div class="instagram-gallery-item">
-            <blockquote
-              class="instagram-media"
-              data-instgrm-permalink="{{ post.url }}"
-              data-instgrm-version="14"
-            >
-              <a href="{{ post.url }}" target="_blank" rel="noopener noreferrer">
-                {{ post.caption }} — view on Instagram
-              </a>
-            </blockquote>
+            <iframe
+              class="instagram-gallery-embed"
+              src="{{ post.url }}embed/"
+              title="Instagram underwater {{ post.kind }} {{ forloop.index }}"
+              loading="lazy"
+              scrolling="no"
+              allowtransparency="true"
+              allowfullscreen="true"
+            ></iframe>
           </div>
         {% endfor %}
       </div>
     </section>
   </div>
 </div>
-<script async src="https://www.instagram.com/embed.js"></script>
 {% endif %}
 
 <div class="row">
