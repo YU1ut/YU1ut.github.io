@@ -2,12 +2,22 @@
   description: |
     Outstanding reviewer awards in CVPR 2026, ICCV 2025, CVPR 2025, ECCV 2022.
 
+- name: Google Cloud Professional Machine Learning Engineer (PMLE)
+  dates: October 2026
+  homepage_group: certification
+
+- name: Google Cloud Professional Cloud Architect (PCA)
+  dates: October 2026
+  homepage_group: certification
+
 - name: Kaggle Master
+  homepage_group: ranking
   description: |
     1 Solo Gold Medal and 5 Silver Medals  
     [[Detail]](https://www.kaggle.com/angelecarre)
 
 - name: SIGNATE Grandmaster
+  homepage_group: ranking
   description: |
     3 Solo Gold Medals and 1 Silver Medal  
     [[Detail]](https://user.competition.signate.jp/ja/user/?user=33bd5bec1bc740c2b5b751089f2c474c)
